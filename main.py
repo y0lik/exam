@@ -52,6 +52,18 @@ max = Worker("Programmer", "Max", 25)
 andrei = Worker("Marketing", "Andrei", 42)
 john = Worker("Director", "John", 32)
 
+
+print("Hello! This is my exam project. Do you want to check it?\n")
+time.sleep(1.5)
+hello = input("Hmm? Y/N\n")
+
+if hello == "Y":
+    print("OK. Lets go!")
+elif hello == "N":
+    print("You have to check it!")
+else:
+    print("I don't care. You have to do it!")
+
 print("\t\t\t\t GOOGLE\n\t\t\t\tDATABASE\n")
 
 while True:
